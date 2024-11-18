@@ -1,22 +1,22 @@
-.min-culture-rvb-scaled-removeb-icon {
+.MIN-culture-RVB {
     width: 150px;
     position: relative;
     height: 110.8px;
     object-fit: cover;
 }
-.region-sud-removebg-preview-1-icon {
+.region-sud-removebg {
     width: 400px;
     position: relative;
     height: 109.9px;
     object-fit: cover;
 }
-.logo-de-la-ville-de-nice-1-icon {
+.logo-de-la-ville-de {
     width: 150px;
     position: relative;
     height: 102.8px;
     object-fit: cover;
 }
-.partenaires1 {
+.partenaire1 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -26,15 +26,10 @@
     align-items: center;
     justify-content: space-between;
 }
-.partenaires {
+.partenaire2 {
     width: 732px;
     position: relative;
     height: 110.8px;
-}
-.donnes-personnelles {
-    position: relative;
-    text-decoration: underline;
-    line-height: 180%;
 }
 .texte {
     position: absolute;
@@ -54,18 +49,7 @@
     position: relative;
     height: 108px;
 }
-.instagram-icon {
-    width: 54px;
-    position: relative;
-    height: 52px;
-    object-fit: cover;
-}
-.pinterest-icon {
-    width: 55px;
-    position: relative;
-    height: 52px;
-    object-fit: cover;
-}
+
 .rseaux-sociaux {
     position: absolute;
     top: 0px;
@@ -76,12 +60,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.rseaux {
-    width: 223px;
-    position: relative;
-    height: 52px;
-}
-.flooter {
+
+.footer {
     position: absolute;
     top: 2605px;
     left: 0px;
@@ -96,18 +76,8 @@
     box-sizing: border-box;
     color: #4a7c59;
 }
-.partenaires-child {
-    position: absolute;
-    top: 124.5px;
-    left: 58.5px;
-    border-radius: 78px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 3px solid #8fc0a9;
-    box-sizing: border-box;
-    width: 1342px;
-    height: 481px;
-}
-.logo-de-la-ville-de-nice-1-icon1 {
+
+.ville-de-nice {
     position: absolute;
     top: 15px;
     left: 0px;
@@ -115,7 +85,7 @@
     height: 115px;
     object-fit: cover;
 }
-.logo-alpes-maritimes10-1-icon {
+.alpes-maritimes {
     position: absolute;
     top: 2px;
     left: 298px;
@@ -123,7 +93,7 @@
     height: 140px;
     object-fit: cover;
 }
-.region-sud-removebg-preview-1-icon1 {
+.regionsud {
     position: absolute;
     top: 24px;
     left: 571px;
@@ -139,7 +109,7 @@
     height: 109px;
     object-fit: cover;
 }
-.min-culture-rvb-scaled-removeb-icon1 {
+.min-culture {
     position: absolute;
     top: 0px;
     left: 1054px;
@@ -147,7 +117,7 @@
     height: 144px;
     object-fit: cover;
 }
-.france-3-logo-cmjn-provence-al-icon {
+.france-3 {
     position: absolute;
     top: 187px;
     left: 238px;
@@ -155,7 +125,7 @@
     height: 109px;
     object-fit: cover;
 }
-.logo-nicematin-1-1-icon {
+.nicematin {
     position: absolute;
     top: 214px;
     left: 566px;
@@ -163,7 +133,7 @@
     height: 55px;
     object-fit: cover;
 }
-.la-strada-web-removebg-preview-icon {
+.lastrada {
     position: absolute;
     top: 209px;
     left: 974px;
@@ -171,7 +141,7 @@
     height: 65px;
     object-fit: cover;
 }
-.logo-artpress-696x411-removebg-icon {
+.artpress {
     position: absolute;
     top: 339px;
     left: 0px;
@@ -179,7 +149,7 @@
     height: 88px;
     object-fit: cover;
 }
-.beauxartsmag-1020x574-removebg-icon {
+.beauxarts {
     position: absolute;
     top: 352px;
     left: 280px;
@@ -187,7 +157,7 @@
     height: 63px;
     object-fit: cover;
 }
-.telerama-nouveau-logo-removebg-icon {
+.telerama {
     position: absolute;
     top: 351px;
     left: 678px;
@@ -195,7 +165,7 @@
     height: 64px;
     object-fit: cover;
 }
-.arte-logo-cmyk-1024x251-1-remo-icon {
+.arte {
     position: absolute;
     top: 358px;
     left: 993px;
