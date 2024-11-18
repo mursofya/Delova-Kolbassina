@@ -1,0 +1,134 @@
+.header{
+    display: flex;
+    width: 1380px;
+    height: 112px;
+    padding: 2px 38px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FAF3DD;
+}
+.text1{
+    color: #4A7C59;
+    text-align: center;
+    font-family: "Road Rage";
+    font-size: 230px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FAF3DD;
+}
+
+.menu-container {
+    position: relative;
+    margin-right: 3%;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar {
+    width: 70px;
+    height: 4px;
+    background: #4A7C59;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: -40%;
+    width: 40%;
+    height: 100%;
+    background-color: #FAF3DD;
+    padding: 20px;
+    transition: left 0.3s ease;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 20px 0;
+}
+
+.nav ul li a {
+    color: #284732;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Staatliches";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.nav.open {
+    left: 0;
+}
+
+.text2 {
+    margin-top: -30%;
+    margin-left: 55%;
+}
+
+.p1 {
+    color: #FAF3DD;
+    font-family: Staatliches;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.span1{
+    color: #FAF3DD;
+    font-family: "Noto Serif";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.span2{
+    color: #FAF3DD;
+    font-family: "Noto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.adresse{
+    margin-top: -100%;
+}
+
+.p2{
+    color: #FAF3DD;
+font-family: Staatliches;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
