@@ -34,6 +34,44 @@ body {
 }
 
 
+.bar {
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 20px 0;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav.open {
+    left: 0;
+}
+
+
 .MIN-culture-RVB {
     width: 150px;
     position: relative;
