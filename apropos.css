@@ -112,6 +112,25 @@ footer {
   margin-bottom: 65px;
 }
 
+#text-links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-links {
+  color: #4a7c59;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration-line: underline;
+}
+
+#icon-links-container {
+  display: flex;
+  gap: 30px;
+}
+
 .nos-partenaires {
     position: absolute;
     top: 0px;
