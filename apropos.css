@@ -104,20 +104,12 @@ body {
 .infos{
 }
 
-.footer {
-    position: absolute;
-    top: 2605px;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0);
-    width: 1432px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 83px;
-    box-sizing: border-box;
-    color: #4a7c59;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 85px;
+  margin-bottom: 65px;
 }
 
 .nos-partenaires {
