@@ -100,8 +100,11 @@ body {
 }
 
 .galerie{
-    text-decoration: underline;
     font-family: "Road Rage";
+}
+
+.article{
+    text-decoration: underline;
 }
 
 .h2{
