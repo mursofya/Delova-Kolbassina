@@ -16,11 +16,17 @@
 }
 
 body {
+    display: flex;
     font-family: Arial, sans-serif;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FAF3DD;
 }
 
 .menu-container {
     position: relative;
+    margin-right: 3%;
 }
 
 .burger {
