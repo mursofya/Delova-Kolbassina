@@ -96,14 +96,16 @@ body {
 }
 
 .container{
-    font-family: Arial, sans-serif;
+    font-family: "Noto Serif";
 }
 
 .galerie{
     text-decoration: underline;
+    font-family: "Road Rage";
 }
 
-.infos{
+.h2{
+    font-family: Staatliches;
 }
 
 footer {
