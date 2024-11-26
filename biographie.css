@@ -12,11 +12,71 @@ body {
   background: #faf3dd;
 }
 
-header {
+.header {
   display: flex;
+  max-width: 1440px;
+  height: 112px;
+  padding: 2px 38px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 38px;
+  flex-shrink: 0;
+  background: #faf3dd;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 25px;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.bar {
+  width: 70px;
+  height: 4px;
+  background: #4a7c59;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background-color: #faf3dd;
+  padding: 20px;
+  transition: left 0.3s ease;
+
+  @media (max-width: 1100px) {
+    left: -140%;
+  width: 40%;
+  }
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 20px 0;
+}
+
+.nav ul li a {
+  color: #284732;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Staatliches";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.nav.open {
+  left: 0;
 }
 
 #lines-container {
@@ -39,6 +99,9 @@ header {
 
 .text-margin {
   margin: 0 50px;
+  @media (max-width: 1300px) {
+    margin: 0 30px;
+  }
 }
 
 #top-image-container {
@@ -46,14 +109,29 @@ header {
   gap: 60px;
   align-items: start;
   justify-content: space-between;
+
+  @media (max-width: 1300px) {
+    flex-direction: column;
+    margin: 0 30px;
+  }
+}
+
+#artist-image {
+  @media (max-width: 1300px) {
+    width: 100%;
+  }
 }
 
 #bottom-image-container {
   display: flex;
   gap: 40px;
   justify-content: space-between;
-
   margin-left: 50px;
+
+  @media (max-width: 1000px) {
+    flex-direction: column-reverse;
+    margin: 0 30px;
+  }
 }
 
 #text-image-container {
@@ -61,6 +139,12 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+#grandma-image {
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 }
 
 .main-text {
@@ -73,15 +157,29 @@ header {
 
 #columns-container {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
   padding: 50px;
   background-color: #4a7c59;
+  gap: 50px;
+
+  @media (min-width: 1440px) {
+    gap: 100px;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 20px;
+  }
 }
 
 .column-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (max-width: 1440px) {
+    max-width: 370px;
+  }
 }
 .column-header {
   color: #faf3dd;
@@ -101,9 +199,11 @@ header {
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 85px;
+  gap: 20px;
   margin-bottom: 65px;
 }
 
