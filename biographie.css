@@ -134,7 +134,7 @@ body {
   margin-left: 50px;
 
   @media (max-width: 1000px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 0 30px;
   }
 }
