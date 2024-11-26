@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Dariia Gilyuk" />
     <title>Delova Kolbassina</title>
-    <link rel="stylesheet" type="text/css" href="biographie.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="./images/briliant.png"
-        alt="briliant"
-        width="112px"
-        height="112px"
-      />
-
-      <div id="lines-container">
-        <hr class="line" />
-        <hr class="line" />
-        <hr class="line" />
+    <header class="header">
+      <a href="index.html">
+        <img src="images/briliant.png" alt="Accueil" />
+      </a>
+      <div class="menu-container">
+        <div class="burger" id="burger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="index.html">ACCUEIL</a></li>
+            <li><a href="expositions.html">EXPOSITIONS</a></li>
+            <li><a href="biographie.html">BIOGRAPHIE</a></li>
+            <li><a href="apropos.html">A PROPOS</a></li>
+          </ul>
+        </nav>
       </div>
+      <script src="index.js"></script>
     </header>
     <img
       src="./images/title.png"
@@ -35,6 +42,7 @@
         alt="artist"
         width="900px"
         height="623px"
+        id="artist-image"
       />
       <p class="main-text">
         Delova Kolbassina est une artiste peintre engagée, née en 1950 à Nice.
@@ -163,6 +171,7 @@
         alt="active grandma"
         width="528px"
         height="340px"
+        id="grandma-image"
       />
     </div>
     <footer>
@@ -185,13 +194,13 @@
         height="110px"
       />
       <div id="text-links-container">
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
+        <a href="donnees.html" target="_blank" class="text-links"
           >Données personnelles</a
         >
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
+        <a href="gestions.html" target="_blank" class="text-links"
           >Gestion des cookies</a
         >
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
+        <a href="mentions.html" target="_blank" class="text-links"
           >Mentions légales</a
         >
       </div>
