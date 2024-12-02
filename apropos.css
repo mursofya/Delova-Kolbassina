@@ -98,12 +98,13 @@ body {
 .container{
     font-family: "Noto Serif";
     color: #FAF3DD;
-    font-size: 35px;
+    text-align: center;
+    font-size: 110px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;
-    width: 580px;
-    height: 524px;
+    line-height: normal;
+    width: 1050px;
+    height: 128px;
     flex-shrink: 0;
     background-color: #315E5B;
 }
@@ -121,7 +122,7 @@ body {
     width: 716px;
     height: 697px;
     flex-shrink: 0;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: lightgray 50%;
 }
 
 .article{
