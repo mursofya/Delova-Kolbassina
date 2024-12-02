@@ -97,10 +97,26 @@ body {
 
 .container{
     font-family: "Noto Serif";
+    color: #FAF3DD;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .galerie{
     font-family: "Road Rage";
+    color: #315E5B;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.imgalerie{
+    width: 716px;
+    height: 697px;
+    flex-shrink: 0;
 }
 
 .article{
