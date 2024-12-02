@@ -142,10 +142,13 @@ body {
     color: #315E5B;
     text-align: center;
     font-family: Staatliches;
-    font-size: 110px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 711px;
+    height: 123px;
+    flex-shrink: 0;
 }
 
 footer {
