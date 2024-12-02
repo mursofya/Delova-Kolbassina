@@ -6,20 +6,32 @@
     <link rel="stylesheet" type="text/css" href="expositions.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/logo.png" alt="logo" width="112px" height="112px" />
-
-      <div id="lines-container">
-        <hr class="line" />
-        <hr class="line" />
-        <hr class="line" />
+    <header class="header">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Accueil" />
+      </a>
+      <div class="menu-container">
+        <div class="burger" id="burger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="index.html">ACCUEIL</a></li>
+            <li><a href="expositions.html">EXPOSITIONS</a></li>
+            <li><a href="biographie.html">BIOGRAPHIE</a></li>
+            <li><a href="apropos.html">A PROPOS</a></li>
+          </ul>
+        </nav>
       </div>
+      <script src="index.js"></script>
     </header>
 
     <img
       src="./images/title.png"
       alt="title"
-      width="600px"
+      width="100%"
       height="170px"
       id="title-image"
     />
@@ -31,11 +43,16 @@
           alt="en-cours"
           width="494px"
           height="500px"
+          id="en-cours"
         />
-        <div class="flex-container">
+        <div class="flex-container flex-cochons">
           <div class="heading-container">
             <h2>COCHONS-NOUS</h2>
-            <button class="container-button">Achetez votre billet !</button>
+            <a href="/calendar.html"
+              ><button class="container-button">
+                Achetez votre billet!
+              </button></a
+            >
           </div>
 
           <p class="small-text">
@@ -54,12 +71,21 @@
           <p class="large-text">
             À vous de chercher, observer, et surtout… trouver les cochons !
           </p>
+          <a href="/calendar.html"
+            ><button class="container-button-mobile">
+              Achetez votre billet!
+            </button></a
+          >
         </div>
       </div>
       <div id="sausice-container">
         <div class="flex-container">
           <div class="heading-container">
-            <button class="container-button">Réservez votre visite</button>
+            <a href="/calendar.html"
+              ><button class="container-button">
+                Réservez votre visite
+              </button></a
+            >
             <h2>SAUCE ISSE</h2>
           </div>
 
@@ -78,12 +104,18 @@
             sur les choix alimentaires et éthiques.
           </p>
           <p class="large-text">Prêt à changer de sauce ?</p>
+          <a href="/calendar.html"
+            ><button class="container-button-mobile">
+              Réservez votre visite
+            </button></a
+          >
         </div>
         <img
           src="./images/a-venir.png"
           alt="en-cours"
           width="494px"
           height="500px"
+          id="a-venir"
         />
       </div>
 
@@ -100,13 +132,138 @@
         </p>
         <div id="bottom-images-container">
           <img
-            src="./images/pasta.png"
+            src="./delova/delova4.jpg"
             alt="pasta"
             width="400px"
             height="400px"
+            class="scroll-image"
           />
-          <img src="./images/pig.png" alt="pig" width="400px" height="400px" />
-          <img src="./images/kid.png" alt="kid" width="400px" height="400px" />
+          <img
+            src="./delova/delova5.jpg"
+            alt="pig"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova17.jpg"
+            alt="kid"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova1.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova3.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova6.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova7.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova8.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova9.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova10.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova11.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova12.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova13.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova14.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova15.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova16.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova18.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova19.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
+          <img
+            src="./delova/delova20.jpg"
+            alt="scroll-image"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+          />
         </div>
         <div id="bottom-button-container">
           <p id="bottom-large-text">Voulez-vous acheter une ?</p>
