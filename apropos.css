@@ -130,13 +130,14 @@ body {
 }
 
 .h2{
-    font-family: Staatliches;
-   color: #315E5B;
-   text-align: center;
+   width: 1440px;
+   position: relative;
    font-size: 80px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
+   font-family: Staatliches;
+   color: #315e5b;
+   text-align: center;
+   display: inline-block;
+   height: 123px;
 }
 
 .h3{
@@ -185,7 +186,7 @@ footer {
   gap: 30px;
 }
 
-.nos-partenaires {
+.partenaires3 {
     position: absolute;
     top: 0px;
     left: 0px;
