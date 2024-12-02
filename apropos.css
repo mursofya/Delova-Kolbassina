@@ -144,29 +144,48 @@ body {
   justify-content: center;
 }
 
-.press-content .video-wrapper {
+/* Conteneur de la vidéo */
+.video-wrapper {
   position: relative;
-  flex: 1 1 300px;
-}
-
-.press-content .video-wrapper img {
   width: 100%;
-  border-radius: 8px;
+  max-width: 800px; /* Taille maximale de la vidéo */
+  margin: 0 auto; /* Centrer la vidéo horizontalement */
+  overflow: hidden;
+  border-radius: 10px; /* Coins arrondis pour le conteneur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre autour de la vidéo */
 }
 
-.press-content .video-wrapper .play-button {
+/* Style de la vidéo */
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Bouton Play */
+.play-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  transform: translate(-50%, -50%); /* Centre le bouton */
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+  color: white;
+  font-size: 24px; /* Taille du triangle "Play" */
   border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 1.5rem;
+  border-radius: 50%; /* Rend le bouton circulaire */
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation au survol */
+}
+
+/* Animation au survol */
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: translate(-50%, -50%) scale(1.1); /* Zoom léger */
 }
 
 .press-content ul {
