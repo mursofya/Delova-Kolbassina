@@ -103,8 +103,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 1050px;
-    height: 128px;
+    width: 580px;
+    height: 524px;
     flex-shrink: 0;
     background-color: #315E5B;
 }
@@ -122,7 +122,7 @@ body {
     width: 716px;
     height: 697px;
     flex-shrink: 0;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .article{
