@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delova Kolbassina</title>
+        <meta charset="utf-8"/>
+		<link rel="stylesheet" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9a92887742.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Serif:wght@400;700;900&display=swap" />
+  	    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap" />
+  	    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Road Rage:wght@400&display=swap" />
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="index.html" class="home-icon">
+                <img src="imagesdelova/petitlogo.png" alt="Accueil">
+            </a>
+            <div class="menu-container">
+                <div class="burger" id="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="index.html">ACCUEIL</a></li>
+                        <li><a href="expositions.html">EXPOSITIONS</a></li>
+                        <li><a href="biographie.html">BIOGRAPHIE</a></li>
+                        <li><a href="apropos.html">A PROPOS</a></li>
+                    </ul>
+                    <script src="index.js"></script>
+                </nav>
+            </div>
+        </header>
+        <div class="chapeau">
+            <img class="img" src="imagesdelova/peintures.png" alt="peintures">
+            <h1 class="text1">DELOVA KOLBASSINA</h1>   
+        </div>
+        <div class="exposition">
+            <img class="img" src="imagesdelova/vaches1.png" alt="exposition">
+            <div class="text2">
+                <h2 class="h2">Exposition en cours</h2>
+                    <p class="cochons">
+                    <span class="span1">Cochons-nous<br/></span>
+                    <span class="span2">Du 12/09/24 au 18/01/25<br/>Au coeur de sa galerie, Delova Kolbassina vous invite à un jeu de cacher/trouver. 
+                    <br/>Entre champs, animaux et viandes ; à vous de trouver où se trouve les cochons !</span>
+                    </p>
+                    <p class="gauche">&lt;</p>
+                    <p class="droit">&gt;</p>
+            </div>
+        </div>
+        <div class="bas">
+            <img class="img" src="imagesdelova/Rectangle.png" alt="background">
+            <div class="adresse">
+                <h2 class="h2adresse">Où SOMMES-NOUS ?</h2>
+                <p class="tadresse">1 Rue St Francois, 06300 Nice, France<br />accueil@galeriedelovakolbassina.fr<br />045728194</p>
+                <h2 class="h2adresse">Horaires d&#39;ouverture</h2>
+                <p class="tadresse">Tous les jours de 11h00 a 19h00<br />Fermeture le dimanche<br />La billetterie ferme 30 minutes avant la fermeture de la galerie.</p>
+                <a href="https://www.google.com/maps/place/Boucherie+Saint+François+%22Chez+Francis%22/@43.6986012,7.2754886,17z/data=!3m1!4b1!4m6!3m5!1s0x12cddabb15265833:0x2600972ef1beffbf!8m2!3d43.6986012!4d7.2780635!16s%2Fg%2F1v3g64pn?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" class="maps">
+                    <img class="maps" src="imagesdelova/maps.png" alt="maps">
+                </a>
+                <a href="apropos.html"><button class="container-button">Informations pratiques</button></a>
+            </div>
+            <form class="contact-form">
+                <h2 class="h2contact">CONTACTEZ-NOUS</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nom">Votre nom*</label>
+                        <input type="text" id="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Votre prénom*</label>
+                        <input type="text" id="prenom" placeholder="Votre prénom" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre e-mail*</label>
+                    <input type="email" id="email" placeholder="Votre e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" placeholder="Votre message"></textarea>
+                </div>
+                <div class="form-footer">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="newsletter">
+                        <label for="newsletter">Je m'abonne à la newsletter !<br> Désabonnement disponible dans chaque envoi.</label>
+                    </div>
+                    <button type="submit" onclick="alert('Merci pour votre inscription!')">Envoyer</button>
+                </div>
+            </form>
+            <footer>
+            <div class="partenaires">
+                <img class="MIN-culture-RVB" src="imagesdelova/partenaire1.png" alt="ministere de la culture" />
+                <img class="region-sud-removebg" src="imagesdelova/partenaire2.png" alt="region-sud" />
+                <img class="logo-de-la-ville-de" src="imagesdelova/partenaire3.png" alt="nice logo" />
+            </div>
+            <div id="text-links-container">
+                <a href="donnees.html" target="_blank" class="text-links">Données personnelles</a>
+                <a href="gestions.html" target="_blank" class="text-links">Gestion des cookies</a>
+                <a href="mentions.html" target="_blank" class="text-links">Mentions légales</a>
+            </div>
+            <div id="icon-links-container">
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="imagesdelova/instagram.png" alt="instagram icon" width="54px" height="52px" /></a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                  <img src="imagesdelova/pinterest.png" alt="pinterest icon" width="54px" height="52px" /></a>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="imagesdelova/facebook.png" alt="facebook icon" width="54px" height="52px" /></a>
+            </div>
+            </footer>
+        </div>
+    </body>
+</html>
