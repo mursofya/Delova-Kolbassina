@@ -123,6 +123,22 @@ body {
 
 .h2{
     font-family: Staatliches;
+   color: #315E5B;
+   text-align: center;
+   font-size: 80px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.h3{
+    color: #315E5B;
+    text-align: center;
+    font-family: Staatliches;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 footer {
