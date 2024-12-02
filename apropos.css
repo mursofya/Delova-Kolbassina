@@ -95,34 +95,47 @@ body {
     box-sizing: border-box;
 }
 
-.container{
-    font-family: "Noto Serif";
-    color: #FAF3DD;
-    text-align: center;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 580px;
-    height: 524px;
-    flex-shrink: 0;
-    background-color: #315E5B;
+.histoire {
+  position: relative;
+  height: 400px; /* Ajuster la hauteur selon mes besoins */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('imagesdelova/galerie.jpeg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
 }
 
-.galerie{
-    font-family: "Road Rage";
-    color: #315E5B;
-    font-style: normal;
-    width: 672px;
-    height: 484px;
-    flex-shrink: 0;
+.container {
+  position: absolute;
+  left: 5%;
+  width: 40%;
+  background-color: #2d645a;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.imgalerie{
-    width: 716px;
-    height: 697px;
-    flex-shrink: 0;
-    opacity: 1;
+.container p {
+  margin: 0 0 15px;
+  line-height: 1.6;
+}
+
+.galerie {
+  position: absolute;
+  right: 5%;
+  text-align: right;
+  color: #124c3b;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.galerie h1 {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Effet d'ombre sur le texte */
 }
 
 .article{
@@ -213,6 +226,34 @@ footer {
     width: 160px;
     height: 160px;
 }
+
+.ville-de-nice {
+  	width: 100%;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 115px;
+  	object-fit: cover;
+}
+
+.alpes-maritimes {
+  	width: 100%;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 140px;
+  	object-fit: cover;
+}
+
+.regionsud {
+  	width: 100%;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 96px;
+  	object-fit: cover;
+}
+
 .youtube {
     position: relative;
     width: 9882px;
