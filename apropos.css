@@ -102,12 +102,19 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+    width: 580px;
+    height: 524px;
+    flex-shrink: 0;
+    background-color: #315E5B;
 }
 
 .galerie{
     font-family: "Road Rage";
     color: #315E5B;
     font-style: normal;
+    width: 672px;
+    height: 484px;
+    flex-shrink: 0;
 }
 
 .imgalerie{
