@@ -183,10 +183,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-
-  @media (max-width: 1440px) {
-    max-width: 370px;
-  }
+  max-width: 340px;
 }
 .column-header {
   color: #faf3dd;
