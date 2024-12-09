@@ -111,6 +111,11 @@ body {
   padding: 10px;
 }
 
+.image-section h1 {
+    text-family: "Road Rage";
+    background-color: #FAF3DD;
+}
+
 .info-section,
 .press-section,
 .partners-section {
