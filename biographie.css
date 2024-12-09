@@ -102,22 +102,17 @@ body {
   color: #4a7c59;
   text-align: center;
   font-family: "Road Rage";
-  font-size: 230px;
+  font-size: 240px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 0 70px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 850px) {
     font-size: 170px;
   }
-
   @media (max-width: 650px) {
     font-size: 100px;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 60px;
   }
 }
 
