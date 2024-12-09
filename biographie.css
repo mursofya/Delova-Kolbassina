@@ -50,6 +50,7 @@ body {
   background-color: #faf3dd;
   padding: 20px;
   transition: left 0.3s ease;
+  z-index: 1000;
 
   @media (max-width: 1100px) {
     left: -140%;
