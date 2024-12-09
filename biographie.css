@@ -137,7 +137,7 @@ body {
 }
 
 #artist-image {
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     width: 100%;
   }
 }
