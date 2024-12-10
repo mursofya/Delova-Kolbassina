@@ -4,38 +4,44 @@
     <meta charset="UTF-8" />
     <title>Expositions</title>
     <link rel="stylesheet" type="text/css" href="expositions.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Serif:wght@400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Road Rage:wght@400&display=swap"
+    />
   </head>
   <body>
-    <header class="header">
-      <a href="index.html">
-        <img src="images/logo.png" alt="Accueil" />
-      </a>
-      <div class="menu-container">
-        <div class="burger" id="burger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+    <div>
+      <header class="header">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Accueil" />
+        </a>
+        <div class="menu-container">
+          <div class="burger" id="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="index.html">ACCUEIL</a></li>
+              <li><a href="expositions.html">EXPOSITIONS</a></li>
+              <li><a href="biographie.html">BIOGRAPHIE</a></li>
+              <li><a href="apropos.html">A PROPOS</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="nav" id="nav">
-          <ul>
-            <li><a href="index.html">ACCUEIL</a></li>
-            <li><a href="expositions.html">EXPOSITIONS</a></li>
-            <li><a href="biographie.html">BIOGRAPHIE</a></li>
-            <li><a href="apropos.html">A PROPOS</a></li>
-          </ul>
-        </nav>
-      </div>
-      <script src="index.js"></script>
-    </header>
-
-    <img
-      src="./images/title.png"
-      alt="title"
-      width="100%"
-      height="170px"
-      id="title-image"
-    />
-
+        <script src="index.js"></script>
+      </header>
+      <h1 id="title">Expositions</h1>
+    </div>
     <main>
       <div id="cochons-container">
         <img
@@ -48,11 +54,7 @@
         <div class="flex-container flex-cochons">
           <div class="heading-container">
             <h2>COCHONS-NOUS</h2>
-            <a href="/calendar.html"
-              ><button class="container-button">
-                Achetez votre billet!
-              </button></a
-            >
+            <button class="container-button">Achetez votre billet!</button>
           </div>
 
           <p class="small-text">
@@ -71,21 +73,13 @@
           <p class="large-text">
             À vous de chercher, observer, et surtout… trouver les cochons !
           </p>
-          <a href="/calendar.html"
-            ><button class="container-button-mobile">
-              Achetez votre billet!
-            </button></a
-          >
+          <button class="container-button-mobile">Achetez votre billet!</button>
         </div>
       </div>
       <div id="sausice-container">
         <div class="flex-container">
           <div class="heading-container">
-            <a href="/calendar.html"
-              ><button class="container-button">
-                Réservez votre visite
-              </button></a
-            >
+            <button class="container-button">Réservez votre visite</button>
             <h2>SAUCE ISSE</h2>
           </div>
 
@@ -104,11 +98,7 @@
             sur les choix alimentaires et éthiques.
           </p>
           <p class="large-text">Prêt à changer de sauce ?</p>
-          <a href="/calendar.html"
-            ><button class="container-button-mobile">
-              Réservez votre visite
-            </button></a
-          >
+          <button class="container-button-mobile">Réservez votre visite</button>
         </div>
         <img
           src="./images/a-venir.png"
@@ -137,6 +127,7 @@
             width="400px"
             height="400px"
             class="scroll-image"
+            data-target="description1"
           />
           <img
             src="./delova/delova5.jpg"
@@ -144,6 +135,7 @@
             width="400px"
             height="400px"
             class="scroll-image"
+            data-target="description2"
           />
           <img
             src="./delova/delova17.jpg"
@@ -151,123 +143,322 @@
             width="400px"
             height="400px"
             class="scroll-image"
-          />
-          <img
-            src="./delova/delova1.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova3.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova6.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova7.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova8.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova9.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova10.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova11.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova12.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova13.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
-          />
-          <img
-            src="./delova/delova14.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
+            data-target="description3"
           />
           <img
             src="./delova/delova15.jpg"
-            alt="scroll-image"
+            alt="picnic"
             width="400px"
             height="400px"
             class="scroll-image"
-          />
-          <img
-            src="./delova/delova16.jpg"
-            alt="scroll-image"
-            width="400px"
-            height="400px"
-            class="scroll-image"
+            data-target="description4"
           />
           <img
             src="./delova/delova18.jpg"
-            alt="scroll-image"
+            alt="ladyPig"
             width="400px"
             height="400px"
             class="scroll-image"
+            data-target="description5"
+          />
+          <img
+            src="./delova/delova6.jpg"
+            alt="wedding"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description6"
+          />
+          <img
+            src="./delova/delova8.jpg"
+            alt="food"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description7"
+          /><img
+            src="./delova/delova9.jpg"
+            alt="cow"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description8"
+          />
+          <img
+            src="./delova/delova11.jpg"
+            alt=" sheep"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description9"
+          />
+          <img
+            src="./delova/delova13.jpg"
+            alt="paris"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description10"
+          />
+          <img
+            src="./delova/delova14.jpg"
+            alt="buterbrods"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description11"
+          />
+          <img
+            src="./delova/delova7.jpg"
+            alt="lunch"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description12"
+          /><img
+            src="./delova/delova10.jpg"
+            alt="goose"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description13"
+          />
+          <img
+            src="./delova/delova12.jpg"
+            alt="sheeps"
+            width="400px"
+            height="400px"
+            class="scroll-image"
+            data-target="description14"
           />
           <img
             src="./delova/delova19.jpg"
-            alt="scroll-image"
+            alt="painter"
             width="400px"
             height="400px"
             class="scroll-image"
+            data-target="description15"
           />
           <img
             src="./delova/delova20.jpg"
-            alt="scroll-image"
+            alt="turkey"
             width="400px"
             height="400px"
             class="scroll-image"
+            data-target="description16"
           />
+          <div id="description1" class="description hidden">
+            <h4>SPAGHETTI D’ETE</h4>
+            <p>
+              Ce tableau présente des spaghetti délicatement nappés de sauce et
+              de morceaux de viande, reposant sur un lit d’herbe. La nature
+              environnante évoque la simplicité et la fraîcheur des ingrédients.
+              Symboliquement, ce plat représente le lien entre la gastronomie et
+              l'environnement, questionnant nos choix alimentaires et leur
+              impact sur la planète.
+            </p>
+          </div>
+          <div id="description2" class="description hidden">
+            <h4>DELICE CELESTE</h4>
+            <p>
+              Un cochon aux teintes vives paît parmi des fleurs roses,
+              illustrant une harmonie entre l’animal et son environnement. Cette
+              fusion symbolise l'idée que les animaux font partie intégrante de
+              la nature, invitant à réfléchir sur notre relation avec eux et
+              notre responsabilité envers l’écosystème.
+            </p>
+          </div>
+          <div id="description3" class="description hidden">
+            <h4>L’ENFANT ET LA VIANDE</h4>
+            <p>
+              Un garçon déguste un morceau de viande, incarnant comment nos
+              habitudes alimentaires se forment dès l'enfance. Ce moment simple
+              mais révélateur souligne l’influence de l’éducation sur nos
+              préférences culinaires, suggérant que les traditions familiales
+              façonnent notre rapport à la nourriture. Il devient un symbole des
+              cycles de consommation et de l'apprentissage, où l'innocence de
+              l'enfance se confronte aux réalités de l'industrie alimentaire.
+            </p>
+          </div>
+          <div id="description4" class="description hidden">
+            <h4>PIQUE-NIQUE CÔTIÉ</h4>
+            <p>
+              Sur une plage, un pique-nique savoureux inclut de la charcuterie,
+              juxtaposition troublante de plaisir et de nature. Ce tableau
+              invite à une réflexion sur l'impact de nos choix alimentaires sur
+              l'environnement. Les éléments festifs du pique-nique contrastent
+              avec la gravité des conséquences de notre consommation, soulignant
+              l'ironie d'un moment de joie qui pourrait masquer une réalité plus
+              sombre.
+            </p>
+          </div>
+          <div id="description5" class="description hidden">
+            <h4>LE NYMPHE ET LE COCHON</h4>
+            <p>
+              Un jeune homme à la chevelure verte caresse un cochon, entouré de
+              fleurs éclatantes. Cette scène poétique évoque l'harmonie entre
+              l'humain et l'animal, suggérant que notre comportement envers les
+              créatures vivantes doit être empreint de douceur et de respect. La
+              fusion des éléments naturels et de l'homme souligne l'idée que
+              notre lien avec la nature est sacré, nous encourageant à traiter
+              tous les êtres vivants avec dignité.
+            </p>
+          </div>
+          <div id="description6" class="description hidden">
+            <h4>NOCES EN PLEIN AIR</h4>
+            <p>
+              Un couple souriant s’unit sous un ciel ensoleillé, entouré de
+              roses. Leur rondeur suggère une indulgence alimentaire excessive,
+              symbolisant les plaisirs de la vie mais soulevant des questions
+              sur les choix alimentaires. Ce tableau souligne l'équilibre
+              fragile entre amour, santé et excès.
+            </p>
+          </div>
+          <div id="description7" class="description hidden">
+            <h4>REPAS TROUBLANT</h4>
+            <p>
+              Sur une table aux couleurs vives, une assiette de purée et de
+              galettes se transforme en deux yeux qui fixent le spectateur.
+              Cette image provocante remet en question notre rapport à la
+              nourriture, interrogeant la souffrance animale derrière nos choix
+              alimentaires et incitant à la réflexion sur la consommation.
+            </p>
+          </div>
+          <div id="description8" class="description hidden">
+            <h4>LA VACHE INTERROGATIVE</h4>
+            <p>
+              Une vache fixe le spectateur avec un regard pénétrant, comme si
+              elle posait une question troublante : « Veux-tu me manger ? »
+              Cette œuvre ne se limite pas à un simple portrait d'animal ; elle
+              interroge notre rapport à la viande et à la compassion envers les
+              êtres vivants. La vache, souvent symbole de douceur et de
+              sérénité, devient ici le miroir de nos choix éthiques, nous
+              incitant à réfléchir à la valeur de chaque vie.
+            </p>
+          </div>
+          <div id="description9" class="description hidden">
+            <h4>L’AGNEAU DÉTERMINÉ</h4>
+            <p>
+              Un agneau se tient fier et droit, scrutant l'horizon avec une
+              détermination inattendue, malgré l'incertitude qui l'attend. Sa
+              posture symbolise l'innocence et la naïveté face à un destin
+              souvent tragique, invitant à une réflexion profonde sur la
+              fragilité de la vie animale. Il incarne l'espoir face à
+              l'adversité, nous poussant à questionner nos choix alimentaires et
+              leur impact sur les générations futures.
+            </p>
+          </div>
+          <div id="description10" class="description hidden">
+            <h4>PARIS A SAUCISSES</h4>
+            <p>
+              Œuvre mythique, Paris à Saucisses est une peinture engagée qui
+              remet en cause la place prédominante de la viande dans la cuisine
+              française. Les saucisses, placées au premier plan, écrasent
+              visuellement le décor parisien, parodiant la vision populaire
+              selon laquelle Paris serait l’unique ville représentative de la
+              France. L’artiste utilise l'humour pour souligner les clichés,
+              tout en critiquant l'obsession pour les produits carnés ainsi que
+              la centralisation excessive de Paris dans l'imaginaire collectif.
+              À travers cette œuvre, Delova Kolbassina invite à repenser le
+              rapport entre tradition, modernité et alimentation.
+            </p>
+          </div>
+          <div id="description11" class="description hidden">
+            <h4>STEAK SUR LA VILLE</h4>
+            <p>
+              Dans Steak sur la ville, l'artiste place un étal de steaks au
+              premier plan, capturant toute l’attention du spectateur. Les
+              morceaux de viande dominent la composition, reléguant
+              l’arrière-plan — une scène urbaine pittoresque — à une simple
+              toile de fond. Cette œuvre soulève des questions sur la place
+              excessive de la consommation de viande dans la vie quotidienne,
+              symbolisée par cette disproportion visuelle. Le contraste entre la
+              beauté des façades et l’omniprésence de la viande met en lumière
+              notre rapport déséquilibré à la nourriture, questionnant
+              l’invasion de l’industrie carnée.
+            </p>
+          </div>
+          <div id="description12" class="description hidden">
+            <h4>ANIMAUX MORTS</h4>
+            <p>
+              Cette nature morte, intitulée Animaux morts, juxtapose des
+              éléments culinaires et floraux, créant une tension entre beauté et
+              mortalité. Les morceaux de viande, disposés aux côtés d’un vase de
+              fleurs fraîches, symbolisent la dichotomie entre vie et mort. Par
+              cette œuvre, l'artiste exprime une critique subtile des pratiques
+              de consommation et de l'exploitation animale, incitant à réfléchir
+              sur la place des animaux dans notre société. À travers des
+              couleurs douces et une composition classique, l’œuvre provoque une
+              réflexion sur la dissonance entre la célébration de la beauté
+              naturelle et l'invisibilisation de la mort animale.
+            </p>
+          </div>
+          <div id="description13" class="description hidden">
+            <h4>LE CANARD OBSERVATEUR</h4>
+            <p>
+              Un canard nous dévisage d'un air méfiant, son regard de côté
+              trahissant une curiosité teintée de prudence. Cette représentation
+              interroge notre rapport avec les animaux domestiques et sauvages,
+              suggérant qu'ils sont conscients de notre présence et de nos
+              intentions.Le canard devient ainsi un symbole de vigilance, nous
+              rappelant que chaque créature mérite respect et considération.
+            </p>
+          </div>
+          <div id="description14" class="description hidden">
+            <h4>LE BÉLIER GARDIEN</h4>
+            <p>
+              À l'arrière-plan, des agneaux paissent paisiblement, tandis qu’un
+              bélier se dresse à l'avant, conscient du fardeau de leur sort. En
+              tant que gardien, il incarne la responsabilité et la protection,
+              illustrant les enjeux de la survie dans un monde où les choix
+              humains déterminent le destin des animaux. Cette œuvre nous pousse
+              à réfléchir sur notre rôle dans l'écosystème et la nécessité d'une
+              cohabitation respectueuse.
+            </p>
+          </div>
+          <div id="description15" class="description hidden">
+            <h4>DAME ÉLÉGANTE</h4>
+            <p>
+              Une femme délicate et gracieuse se régale de viande dans un cadre
+              naturel. Son élégance dans cet acte symbolise la complexité de nos
+              choix alimentaires, mêlant plaisir, esthétique et questions
+              éthiques sur la consommation de viande. Cette œuvre soulève des
+              interrogations sur la beauté du geste et les implications morales
+              de notre alimentation, nous invitant à réévaluer notre rapport à
+              la nature et à la vie animale.
+            </p>
+          </div>
+          <div id="description16" class="description hidden">
+            <h4>POULET DANS UN CHAMP</h4>
+            <p>
+              Cette œuvre engageante représente un poulet rôti dans un paysage
+              champêtre, mais au-delà de la simple scène culinaire, elle
+              interpelle sur les questions de bien-être animal et de la relation
+              entre l'humain et la nature. À travers des coups de pinceau
+              dynamiques et des couleurs vibrantes, l'artiste dénonce
+              l'industrialisation de l'élevage et invite à réfléchir sur la
+              consommation animale. L'utilisation de ce symbole fort souligne la
+              fragilité de la vie et questionne les pratiques modernes qui
+              déconnectent les êtres vivants de leur environnement naturel.
+            </p>
+          </div>
         </div>
+
         <div id="bottom-button-container">
           <p id="bottom-large-text">Voulez-vous en acheter une ?</p>
-          <button id="bottom-button">Contactez-nous !</button>
+          <button id="bottom-button" onclick="location.href='index.html'">
+            Contactez-nous !
+          </button>
+        </div>
+      </div>
+      <div id="datepicker-container">
+        <div class="datepicker">
+          <div class="datepicker-header">
+            <span id="prevArrow" class="arrow" onclick="prevMonth()">&lt;</span>
+            <span class="month" id="monthLabel">October 2024</span>
+            <span id="nextArrow" class="arrow" onclick="nextMonth()">&gt;</span>
+          </div>
+          <div class="calendar" id="calendar"></div>
         </div>
       </div>
     </main>
@@ -292,15 +483,9 @@
         height="110px"
       />
       <div id="text-links-container">
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
-          >Données personnelles</a
-        >
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
-          >Gestion des cookies</a
-        >
-        <a href="https://www.instagram.com/" target="_blank" class="text-links"
-          >Mentions légales</a
-        >
+        <a href="donnees.html" class="text-links">Données personnelles</a>
+        <a href="gestions.html" class="text-links">Gestion des cookies</a>
+        <a href="mentions.html" class="text-links">Mentions légales</a>
       </div>
       <div id="icon-links-container">
         <a href="https://www.instagram.com/" target="_blank">
@@ -326,5 +511,6 @@
         /></a>
       </div>
     </footer>
+    <script src="expositions.js"></script>
   </body>
 </html>
