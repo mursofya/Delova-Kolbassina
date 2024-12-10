@@ -86,7 +86,7 @@ body {
     left: 0;
 }
 
-.hero-content {
+.hero-section {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -94,16 +94,16 @@ body {
   justify-content: center;
 }
 
-.hero-content text-section {
+.hero-section text-section {
   flex: 1 1 400px;
 }
 
-.hero-content image-section {
+.hero-section image-section {
   flex: 1 1 300px;
   text-align: center;
 }
 
-.hero-content image-section imgalerie h1 {
+.hero-section image-section imgalerie h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 20px;
