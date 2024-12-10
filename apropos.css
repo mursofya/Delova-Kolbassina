@@ -140,6 +140,12 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.press-section h2 {
+  flex: 1 1 300px;
+  color: #396956;
+  font-family: "RoadRage";
+}
+    
 .press-content {
   display: flex;
   flex-wrap: wrap;
