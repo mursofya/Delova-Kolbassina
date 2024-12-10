@@ -104,16 +104,17 @@ body {
 }
 
 .hero-section image-section imgalerie h1 {
-  font-size: 2.5rem;
+  font-size: 180px;
   font-weight: bold;
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-}
-
-.image-section imgalerie h1 {
-    text-family: "Road Rage";
-    background-color: #FAF3DD;
+  color: #315e5b;
+  text-family: "Road Rage";
+  text-align: left;
+  display: inline-block;
+  height: 484px;
+  line-height: 100%;
 }
 
 .info-section press-section partners-section {
