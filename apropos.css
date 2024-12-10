@@ -124,6 +124,13 @@ body {
   line-height: 100%;
 }
 
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #8FC0A9;
+}
+
 .info-section press-section partners-section {
   padding: 40px 20px;
   text-align: center;
@@ -148,15 +155,15 @@ body {
 }
 
 .press-section h2 {
-  width: 300px;
+  width: 711px;
   height: 123px;
   position: relative;
   font-size: 80px;
   flex: 1 1 300px;
   color: #315e5b;
-  text-align: right;
+  text-align: center;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 200px;
   font-family: "Staatliches";
 }
     
