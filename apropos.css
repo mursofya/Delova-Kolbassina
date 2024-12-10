@@ -277,7 +277,7 @@ footer {
       padding: 20px;
   }
   .logo {
-      max-width: 100px; /* Réduit la taille des logos sur mobile */
+      max-width: 80px; /* Réduit la taille des logos sur mobile */
   }
   .partners {
       flex-direction: column;
@@ -300,7 +300,7 @@ footer {
       font-size: 28px; /* Taille de la police sur très petit écran */
   }
   .logo {
-      max-width: 80px; /* Réduit encore la taille des logos */
+      max-width: 60px; /* Réduit encore la taille des logos */
   }
   .nav ul li a {
       font-size: 36px; /* Ajuste la taille des liens */
