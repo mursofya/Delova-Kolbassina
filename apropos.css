@@ -141,7 +141,8 @@ body {
 }
 
 .press-section h2 {
-  width: 711px;
+  width: 500px;
+  height: 123px;
   position: relative;
   font-size: 80px;
   flex: 1 1 300px;
