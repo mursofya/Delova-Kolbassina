@@ -166,32 +166,6 @@ body {
     height: 100%;
 }
 
-/* Bouton Play */
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centre le bouton */
-  width: 60px;
-  height: 60px;
-  background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
-  color: white;
-  font-size: 24px; /* Taille du triangle "Play" */
-  border: none;
-  border-radius: 50%; /* Rend le bouton circulaire */
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation au survol */
-}
-
-/* Animation au survol */
-.play-button:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  transform: translate(-50%, -50%) scale(1.1); /* Zoom léger */
-}
-
 .press-content ul {
   flex: 1 1 300px;
   list-style: none;
