@@ -125,20 +125,7 @@ body {
 }
 
 .info-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   background-color: #8FC0A9;
-}
-
-.info-section press-section partners-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.info-section h2 press-section h2 partners-section h2 {
-  margin-bottom: 30px;
-  font-size: 2rem;
 }
 
 .info-grid {
