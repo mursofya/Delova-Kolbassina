@@ -103,7 +103,7 @@ body {
   text-align: center;
 }
 
-.hero-content image-section h1 {
+.hero-content image-section imgalerie h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 20px;
@@ -111,7 +111,7 @@ body {
   padding: 10px;
 }
 
-.image-section h1 {
+.image-section imgalerie h1 {
     text-family: "Road Rage";
     background-color: #FAF3DD;
 }
