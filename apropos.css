@@ -140,9 +140,15 @@ body {
 }
 
 .press-section h2 {
+  width: 711px;
+  position: relative;
+  font-size: 80px;
   flex: 1 1 300px;
-  color: #396956;
-  font-family: "RoadRage";
+  color: #315e5b;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: "Staatliches";
 }
     
 .press-content {
