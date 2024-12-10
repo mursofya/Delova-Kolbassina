@@ -148,22 +148,22 @@ body {
   justify-content: center;
 }
 
-/* Conteneur de la vidéo */
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 800px; /* Taille maximale de la vidéo */
-  margin: 0 auto; /* Centrer la vidéo horizontalement */
-  overflow: hidden;
-  border-radius: 10px; /* Coins arrondis pour le conteneur */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre autour de la vidéo */
+/* Conteneur de la vidéo responsive */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
 }
 
-/* Style de la vidéo */
-video {
-  width: 100%;
-  height: auto;
-  display: block;
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Bouton Play */
