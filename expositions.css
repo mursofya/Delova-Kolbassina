@@ -120,6 +120,7 @@ body {
 }
 
 #cochons-container {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -128,29 +129,57 @@ body {
   background-size: cover;
   background-position: center;
   opacity: 0.7;
-  gap: 50px;
-  padding: 40px 230px 20px 20px;
+  padding: 100px 230px;
   width: 100%;
 
   @media (max-width: 1100px) {
     padding-right: 50px;
   }
+
   @media (max-width: 800px) {
     flex-direction: column;
+    padding-left: 20px;
   }
 }
 
 #en-cours {
+  position: absolute;
+  top: 40%;
+  left: -260px;
+  width: 680px;
+  height: 160px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  color: #faf3dd;
+  text-align: center;
+  font-family: Staatliches;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
   @media (max-width: 800px) {
-    height: 250px;
-    width: 160px;
-    transform: rotate(90deg);
+    top: auto;
+    left: auto;
+    position: relative;
+    font-size: 170px;
+    transform: rotate(0deg);
+  }
+
+  @media (max-width: 750px) {
+    font-size: 140px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 100px;
   }
 }
 
 #sausice-container {
+  position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-image: url("./images/sausige.png");
   background-repeat: no-repeat;
@@ -158,22 +187,46 @@ body {
   background-position: center;
   opacity: 0.7;
   gap: 50px;
-  padding: 40px 20px 20px 230px;
+  padding: 80px 230px;
   width: 100%;
 
   @media (max-width: 1100px) {
     padding-left: 50px;
   }
+
   @media (max-width: 800px) {
     flex-direction: column-reverse;
+    padding-right: 50px;
   }
 }
 
 #a-venir {
+  position: absolute;
+  top: 50%;
+  right: -200px;
+  width: 680px;
+  height: 160px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  color: #faf3dd;
+  text-align: right;
+  font-family: Staatliches;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
   @media (max-width: 800px) {
-    height: 250px;
-    width: 160px;
-    transform: rotate(90deg);
+    top: auto;
+    right: auto;
+    position: relative;
+    font-size: 170px;
+    transform: rotate(0deg);
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 120px;
   }
 }
 #bottom-container {
@@ -320,6 +373,17 @@ h2 {
 
 #bottom-title {
   margin: 0 auto;
+  color: #8fc0a9;
+  text-align: center;
+  font-family: Staatliches;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media (max-width: 600px) {
+    font-size: 100px;
+  }
 }
 #bottom-button {
   font-family: "Noto Serif";
@@ -334,6 +398,12 @@ h2 {
   border-radius: 20px;
   padding: 6px 12px;
   border: none;
+}
+
+#bottom-button:hover {
+  background-color: #52bdb6;
+  color: white;
+  cursor: pointer;
 }
 
 #bottom-small-text {
@@ -520,10 +590,8 @@ footer {
   color: #68b0ab;
 }
 
- 
-
-.calendar td:nth-child(1){
-  color: #8CA98A
+.calendar td:nth-child(1) {
+  color: #8ca98a;
 }
 
 .calendar .inactive {
