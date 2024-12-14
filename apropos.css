@@ -100,7 +100,7 @@ body {
 .hero-section p {
    color: #FAF3DD;
    font-family: 'Noto Serif', serif;
-   font-size: 25px;
+   font-size: 15px;
    width: 40%; /* Largeur de la partie gauche */
    padding: 40px; /* Espacement intérieur */
    text-align: left;
@@ -109,7 +109,7 @@ body {
 
 .hero-section img {
   height: 100%;
-  width: 50%;
+  width: 100%;
   object-fit: cover;
   opacity: 0.5; 
 }
