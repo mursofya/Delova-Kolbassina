@@ -106,9 +106,10 @@ body {
 
 .hero-section imgalerie {
   flex: 1 1 300px;
-  text-align: right;
-  position: absolute;
-  gap: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0,5;
 }
 
 .hero-section h1 {
@@ -135,8 +136,11 @@ body {
 
 .info-section h2 {
   color: #315e5b;
-  font-size: 100px;
-  text-align: center;
+  font-size: 110px;
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
+  height: 128px; 
   font-family: 'Staatliches';
 }
 
