@@ -140,7 +140,7 @@ body {
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
   font-family: 'Staatliches';
-  width: 50%;
+  width: 100px;
 }
 
 .info-section h3 {
@@ -154,6 +154,7 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  width: 100px;
 }
 
 .info-grid div {
