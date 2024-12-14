@@ -94,7 +94,7 @@ body {
   background-color: #315E5B;
 }
 
-.hero-section text-section p {
+.hero-section p {
    color: #FAF3DD;
    font-family: 'Noto Serif', serif;
    font-size: 25px;
@@ -106,7 +106,7 @@ body {
    text-align: left;
 }
 
-.hero-section image-section imgalerie {
+.hero-section imgalerie {
   height: 100%;
   object-fit: cover;
   opacity: 0.5; 
@@ -120,7 +120,7 @@ body {
   position: absolute;
   color: #315E5B;
   font-family: 'Road Rage', cursive;
-  font-size: 90px;
+  font-size: 80px;
   top: 50%; /* Centrer verticalement */
   left: 50%; /* Centrer horizontalement */
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
@@ -222,7 +222,7 @@ video-container iframe {
   color: #315e5b;
   text-align: center;
   font-family: "Staatliches";
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .partners-grid {
@@ -238,10 +238,10 @@ video-container iframe {
 }
 
 .partners-grid img {
-  gap: 10px;
+  gap: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
