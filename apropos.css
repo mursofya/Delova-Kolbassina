@@ -317,9 +317,6 @@ footer {
   .text-section {
       font-size: 36px; /* Réduit la taille de la police sur petit écran */
   }
-  .nav ul li a {
-      font-size: 48px; /* Réduit la taille des liens du menu */
-  }
 }
 
 @media (max-width: 480px) {
@@ -328,11 +325,5 @@ footer {
   }
   .logo {
       max-width: 60px; /* Réduit encore la taille des logos */
-  }
-  .nav ul li a {
-      font-size: 36px; /* Ajuste la taille des liens */
-  }
-  .nav {
-      width: 60%;
   }
 }
