@@ -140,6 +140,12 @@ body {
   font-family: "Staatliches";
 }
 
+.info-section h3 {
+  color: #315e5b;
+  text-align: center;
+  font-family: "Staatliches";
+}
+
 .info-grid {
   display: flex;
   flex-wrap: wrap;
