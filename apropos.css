@@ -94,6 +94,9 @@ body {
   margin: 0;
   align-items: center;
   background-color: #315E5B !important;
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .hero-section p {
