@@ -224,6 +224,12 @@ video-container iframe {
   justify-items: center;
 }
 
+.partners-grid h2 {
+  color: #315e5b;
+  text-align: center;
+  font-family: "Staatliches";
+}
+
 .partners-grid img {
   max-width: 100%;
   height: auto;
