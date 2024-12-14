@@ -232,13 +232,13 @@ video-container iframe {
   flex-wrap: wrap; /* Autoriser le retour à la ligne des logos */
   justify-content: center; /* Centrer les logos horizontalement */
   align-items: center; /* Centrer les logos verticalement */
-  gap: 10px;
+  gap: 20px;
 }
 
 .partners-grid img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
 }
 
