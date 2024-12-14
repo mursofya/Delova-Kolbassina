@@ -94,7 +94,7 @@ body {
   background-color: #315E5B;
 }
 
-.hero-section text-section {
+.hero-section text-section p {
    color: #FAF3DD;
    font-family: 'Noto Serif', serif;
    font-size: 25px;
@@ -106,7 +106,7 @@ body {
    text-align: left;
 }
 
-.hero-section imgalerie {
+.hero-section image-section imgalerie {
   height: 100%;
   object-fit: cover;
   opacity: 0.5; 
