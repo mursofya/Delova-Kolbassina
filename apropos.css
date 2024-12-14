@@ -88,10 +88,10 @@ body {
 }
 
 .hero-section {
+  background-color: #315E5B !important;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #315E5B;
   position: relative;
 }
 
