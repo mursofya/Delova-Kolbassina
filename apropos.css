@@ -233,7 +233,7 @@ video-container iframe {
   border: 4px solid #8FC0A9; /* Couleur et épaisseur du contour */
   border-radius: 20px; /* Arrondir les coins */
   padding: 20px; /* Espacement entre le contenu et le bord du contour */
-  width: 30%; /* Ajuster la largeur selon vos besoins */
+  width: 90%; /* Ajuster la largeur selon vos besoins */
   margin: 0 auto; /* Centrer le conteneur */
   display: flex;
   flex-wrap: wrap; /* Autoriser le retour à la ligne des logos */
