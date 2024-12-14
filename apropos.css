@@ -14,6 +14,10 @@
     z-index: 900;
 }
 
+body {
+    padding-top: 112px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -95,7 +99,6 @@ body {
 
 .hero-section text-section {
   flex: 1 1 400px;
-  color: #faf3dd;
   width: 580px;
   position: relative;
   font-size: 35px;
@@ -140,7 +143,7 @@ body {
 
 .info-section h2 {
   color: #315e5b;
-  font-size: 110px;
+  font-size: 80px;
   display: flex;
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
