@@ -91,9 +91,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  margin: 0;
   align-items: center;
   background-color: #315E5B !important;
-  height: 100vh;
 }
 
 .hero-section p {
@@ -101,13 +101,12 @@ body {
    font-family: 'Noto Serif', serif;
    font-size: 20px;
    width: 50%; /* Largeur de la partie gauche */
-   padding: 20px; /* Espacement intérieur */
+   padding: 10px; /* Espacement intérieur */
    text-align: left;
-   margin-left: 20px;
 }
 
 .hero-section img {
-  height: 100%;
+  height: auto;
   width: 50%;
   object-fit: cover;
   position: relative;
