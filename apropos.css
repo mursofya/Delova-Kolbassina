@@ -90,7 +90,7 @@ body {
 .hero-section {
   background-color: #315E5B !important;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
 }
@@ -103,6 +103,7 @@ body {
    padding: 40px; /* Espacement intérieur */
    text-align: left;
    display: block;
+   z-index: 2;
 }
 
 .hero-section imgalerie {
@@ -110,7 +111,6 @@ body {
   object-fit: cover;
   opacity: 0.5; 
   width: 50%;
-  overflow: hidden;
 }
 
 .hero-section h1 {
