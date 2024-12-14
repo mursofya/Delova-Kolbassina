@@ -59,7 +59,7 @@ body {
     background-color: #FAF3DD;
     padding: 20px;
     transition: left 0.3s ease;
-    z-index: 1000;
+    z-index: 3;
 
 }
 
