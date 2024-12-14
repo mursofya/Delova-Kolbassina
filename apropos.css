@@ -109,6 +109,7 @@ body {
   flex: 1 1 300px;
   text-align: right;
   position: absolute;
+  gap: 40px;
 }
 
 .hero-section h1 {
