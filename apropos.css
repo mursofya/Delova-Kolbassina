@@ -142,7 +142,7 @@ body {
   width: 100%
 }
 
-.info-grid h3 {
+.info-section h3 {
   color: #315e5b;
   font-family: 'Staatliches';
   font-size: 30px;
@@ -153,6 +153,8 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  color: #315e5b;
+  font-family: 'Noto Serif', serif;
 }
 
 .info-grid div {
