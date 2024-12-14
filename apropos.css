@@ -105,11 +105,15 @@ body {
 }
 
 .hero-section imgalerie {
-  flex: 1 1 300px;
+  flex: 1 1 200px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   opacity: 0,5;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
 }
 
 .hero-section h1 {
