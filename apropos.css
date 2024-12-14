@@ -89,7 +89,7 @@ body {
 
 .hero-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   background-color: #315E5B !important;
