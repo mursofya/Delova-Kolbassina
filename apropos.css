@@ -136,7 +136,7 @@ body {
 
 .info-section h2 {
   color: #315e5b;
-  font-size: 80px;
+  font-size: 60px;
   display: flex;
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
@@ -172,8 +172,7 @@ body {
   color: #315e5b;
   text-align: center;
   display: inline-block;
-  margin-bottom: 10px;
-  margin-left: 200px;
+  margin-left: 300px;
   font-family: 'Staatliches';
 }
     
@@ -229,7 +228,7 @@ video-container iframe {
   justify-items: center;
 }
 
-.partners-grid h2 {
+.partners-grid h1 {
   color: #315e5b;
   text-align: center;
   font-family: "Staatliches";
