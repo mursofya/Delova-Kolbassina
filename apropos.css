@@ -105,14 +105,14 @@ body {
   display: inline-block;
 }
 
-.hero-section image-section {
+.hero-section imgalerie {
   flex: 1 1 300px;
   text-align: right;
   position: absolute;
 }
 
 .hero-section h1 {
-  font-size: 180px;
+  font-size: 80px;
   font-weight: bold;
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.5);
@@ -120,7 +120,6 @@ body {
   color: #315e5b;
   text-family: "Road Rage";
   text-align: right;
-  flex: 1 1 300px;
   position: absolute;
   display: inline-block;
   height: 484px;
