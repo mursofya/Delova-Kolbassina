@@ -170,7 +170,7 @@ body {
   color: #315e5b;
   text-align: center;
   display: inline-block;
-  margin-left: 500px;
+  margin-left: 700px;
   font-family: 'Staatliches';
 }
     
@@ -241,8 +241,8 @@ video-container iframe {
 .partners-grid img {
   gap: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
