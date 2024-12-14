@@ -89,46 +89,42 @@ body {
 
 .hero-section {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
   background-color: #315E5B;
 }
 
 .hero-section text-section {
-  flex: 1 1 400px;
-  width: 580px;
-  position: relative;
-  font-size: 35px;
-  line-height: 120%;
-  text-align: left;
-  display: inline-block;
+   color: #FAF3DD;
+   font-family: 'Noto Serif', serif;
+   font-size: 25px;
+   width: 40%; /* Largeur de la partie gauche */
+   padding: 40px; /* Espacement intérieur */
+   display: flex;
+   flex-direction: column;
+   justify-content: center; /* Centrer verticalement le contenu */
+   text-align: left;
 }
 
 .hero-section imgalerie {
-  flex: 1 1 200px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  opacity: 0,5;
-  position: relative;
-  overflow: hidden;
+  height: 100%;
   object-fit: cover;
-  width: 100%;
+  opacity: 0.5; /* Opacité de l'image */
+  position: relative;
+  width: 60%; /* Largeur de la partie droite */
+  overflow: hidden;
 }
 
 .hero-section h1 {
-  font-size: 50px;
-  font-weight: bold;
-  margin-top: 20px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #315e5b;
-  text-family: 'Road Rage';
-  text-align: right;
   position: absolute;
-  display: inline-block;
-  height: 400px;
-  line-height: 100%;
+  color: #315E5B;
+  font-family: 'Road Rage', cursive;
+  font-size: 90px;
+  top: 50%; /* Centrer verticalement */
+  left: 50%; /* Centrer horizontalement */
+  transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
+  text-align: center;
+  z-index: 1;
 }
 
 .info-section {
