@@ -239,8 +239,8 @@ video-container iframe {
 .partners-grid img {
   gap: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
 }
 
