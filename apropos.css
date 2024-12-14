@@ -102,7 +102,7 @@ body {
    width: 40%; /* Largeur de la partie gauche */
    padding: 40px; /* Espacement intérieur */
    text-align: left;
-   position: absolute;
+   display: block;
 }
 
 .hero-section imgalerie {
