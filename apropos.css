@@ -139,7 +139,7 @@ body {
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
   font-family: 'Staatliches';
-  width: 100px;
+  width: 100%
 }
 
 .info-section h3 {
