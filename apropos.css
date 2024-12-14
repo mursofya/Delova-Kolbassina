@@ -109,7 +109,7 @@ body {
 
 .hero-section img {
   height: auto;
-  width: 100%;
+  width: 100px;
   object-fit: cover;
   position: absolute;
 }
