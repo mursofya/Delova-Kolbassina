@@ -89,7 +89,7 @@ body {
 
 .hero-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-end;
   align-items: center;
   background-color: #315E5B;
 }
@@ -110,10 +110,8 @@ body {
   height: 100%;
   object-fit: cover;
   opacity: 0.5; 
-  position: relative;
   width: 50%;
   overflow: hidden;
-  float: right;
 }
 
 .hero-section h1 {
