@@ -242,10 +242,11 @@ video-container iframe {
 }
 
 .partners-grid img {
-  max-width: 100%;
   gap: 10px;
-  height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 
 .partners-grid img:hover {
