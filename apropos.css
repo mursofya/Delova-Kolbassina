@@ -170,6 +170,7 @@ body {
     gap: 20px;
     align-items: center;
     position: relative;
+    text-decoration: underline;
 }
 
 .press-section h2 {
@@ -178,7 +179,7 @@ body {
   color: #315e5b;
   text-align: center;
   display: inline-block;
-  margin-left: 700px;
+  margin-left: 800px;
   font-family: 'Staatliches';
 }
     
