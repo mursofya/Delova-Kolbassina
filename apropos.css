@@ -89,9 +89,10 @@ body {
 
 .hero-section {
   display: flex;
-  justify-content: space-end;
+  justify-content: flex-end;
   align-items: center;
   background-color: #315E5B;
+  position: relative;
 }
 
 .hero-section p {
