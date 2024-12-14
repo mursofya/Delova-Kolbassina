@@ -115,19 +115,17 @@ body {
   object-fit: cover;
   position: absolute;
   top: 0;
-  left: 0;
-  margin-left: 50px;
+  left: 50;
   z-index: 0;
 }
 
 .hero-section h1 {
   color: #315E5B;
   font-family: 'Road Rage', cursive;
-  margin-left: 60px;
   font-size: 80px;
   position: absolute;
   top: 50%; /* Centrer verticalement */
-  left: 50%; /* Centrer horizontalement */
+  left: 60%; /* Centrer horizontalement */
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
   z-index: 1;
 }
