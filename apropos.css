@@ -94,7 +94,6 @@ body {
   align-items: center;
   background-color: #315E5B !important;
   height: 100vh;
-  width: 100%;
   position: relative;
 }
 
@@ -106,13 +105,16 @@ body {
    padding: 40px; /* Espacement intérieur */
    text-align: left;
    margin-left: 20px;
+   z-index: 2;
 }
 
 .hero-section img {
   height: auto;
-  width: auto;
+  width: 100%;
   object-fit: cover;
   opacity: 1;
+  position: absolute;
+  z-index: 0;
 }
 
 .hero-section h1 {
