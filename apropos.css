@@ -221,13 +221,6 @@ video-container iframe {
   color: #123524;
 }
 
-.partners-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 20px;
-  justify-items: center;
-}
-
 .partners-section h2 {
   color: #315e5b;
   text-align: center;
@@ -235,8 +228,21 @@ video-container iframe {
   font-size: 30px;
 }
 
+.partners-grid {
+  border: 4px solid #8FC0A9; /* Couleur et épaisseur du contour */
+  border-radius: 20px; /* Arrondir les coins */
+  padding: 20px; /* Espacement entre le contenu et le bord du contour */
+  width: 90%; /* Ajuster la largeur selon vos besoins */
+  margin: 0 auto; /* Centrer le conteneur */
+  display: flex;
+  flex-wrap: wrap; /* Autoriser le retour à la ligne des logos */
+  justify-content: center; /* Centrer les logos horizontalement */
+  align-items: center; /* Centrer les logos verticalement */
+}
+
 .partners-grid img {
   max-width: 100%;
+  margin: 10px;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
