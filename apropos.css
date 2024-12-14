@@ -97,7 +97,6 @@ body {
   overflow: hidden;
   max-height: 100%;
   max-width: 100%;
-  position: relative;
 }
 
 .hero-section p {
@@ -117,12 +116,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  margin-left: 50px;
   z-index: 0;
 }
 
 .hero-section h1 {
   color: #315E5B;
   font-family: 'Road Rage', cursive;
+  margin-left: 60px;
   font-size: 80px;
   position: absolute;
   top: 50%; /* Centrer verticalement */
