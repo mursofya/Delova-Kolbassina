@@ -95,7 +95,6 @@ body {
 
 .hero-section text-section {
   flex: 1 1 400px;
-  font-family: "Noto Serif";
   color: #faf3dd;
   width: 580px;
   position: relative;
@@ -119,7 +118,7 @@ body {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   color: #315e5b;
-  text-family: "Road Rage";
+  text-family: 'Road Rage';
   text-align: right;
   position: absolute;
   display: inline-block;
@@ -137,13 +136,13 @@ body {
 .info-section h2 {
   color: #315e5b;
   text-align: center;
-  font-family: "Staatliches";
+  font-family: 'Staatliches';
 }
 
 .info-section h3 {
   color: #315e5b;
   text-align: center;
-  font-family: "Staatliches";
+  font-family: 'Staatliches';
 }
 
 .info-grid {
@@ -170,7 +169,7 @@ body {
   display: inline-block;
   margin-bottom: 10px;
   margin-left: 200px;
-  font-family: "Staatliches";
+  font-family: 'Staatliches';
 }
     
 .press-content {
