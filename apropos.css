@@ -88,11 +88,13 @@ body {
 }
 
 .hero-section {
-  background-color: #315E5B !important;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  background-color: #315E5B !important;
   height: 100vh;
+  position: relative;
 }
 
 .hero-section p {
@@ -102,24 +104,23 @@ body {
    width: 40%; /* Largeur de la partie gauche */
    padding: 40px; /* Espacement intérieur */
    text-align: left;
+   margin-left: 20px;
 }
 
 .hero-section img {
   height: 100%;
+  width: 50%;
   object-fit: cover;
   opacity: 0.5; 
-  width: 50%;
 }
 
 .hero-section h1 {
-  position: absolute;
   color: #315E5B;
   font-family: 'Road Rage', cursive;
   font-size: 80px;
   top: 50%; /* Centrer verticalement */
   left: 50%; /* Centrer horizontalement */
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
-  text-align: center;
   z-index: 1;
 }
 
