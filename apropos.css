@@ -97,13 +97,11 @@ body {
 .hero-section p {
    color: #FAF3DD;
    font-family: 'Noto Serif', serif;
-   font-size: 10px;
+   font-size: 25px;
    width: 40%; /* Largeur de la partie gauche */
    padding: 40px; /* Espacement intérieur */
-   display: flex;
-   flex-direction: column;
-   justify-content: center; /* Centrer verticalement le contenu */
    text-align: left;
+   position: absolute;
 }
 
 .hero-section imgalerie {
