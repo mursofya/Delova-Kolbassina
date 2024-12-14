@@ -165,15 +165,12 @@ body {
 }
 
 .press-section h2 {
-  width: 711px;
-  height: 123px;
   position: relative;
-  font-size: 50px;
-  flex: 1 1 300px;
+  font-size: 40px;
   color: #315e5b;
   text-align: center;
   display: inline-block;
-  margin-left: 300px;
+  margin-left: 500px;
   font-family: 'Staatliches';
 }
     
