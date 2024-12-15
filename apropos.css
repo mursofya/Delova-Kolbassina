@@ -89,7 +89,6 @@ body {
 
 .hero-section {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   align-items: center;
   overflow: hidden;
