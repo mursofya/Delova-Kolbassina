@@ -109,16 +109,22 @@ body {
    left: 12,5px;
 }
 
+.text-section p {
+    mad-width: 90%
+    padding: 10%;
+}
+
 .image-section {
   color: #315E5B;
   font-family: 'Road Rage', cursive;
-  font-size: 80px;
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
+  justify-content: flex-end;
   z-index: 1;
   background-image: url('imagesdelova/galerie.jpg');
+}
+
+.image-section h1 {
+padding: 15%;
+font-size: 110px;
 }
 
 .info-section {
