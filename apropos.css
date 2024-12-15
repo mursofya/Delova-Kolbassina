@@ -300,13 +300,16 @@ footer {
         gap: 20px;
         margin-top: 5vw;
     }
+
     .partenaires img{
         width: 120px;
-    }       
+    }
+          
     .text-links {
         font-size: 15px;
         line-height: 160%;
     }
+    
     #icon-links-container {
         gap: 25px;
     }
