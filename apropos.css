@@ -322,7 +322,6 @@ footer {
 @media screen and (max-width: 1024px) {
   /* NAVIGATION */
   .header {
-    flex-direction: column;
     height: auto;
     padding: 10px 20px;
   }
