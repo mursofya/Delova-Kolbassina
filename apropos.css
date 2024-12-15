@@ -117,6 +117,9 @@ body {
   z-index: 0;
   max-width: 500px; /* Taille maximale fixée en pixels */
   height: auto; /* Conserve les proportions */
+  background-color: white; /* Couleur du filtre */
+  opacity: 0.5; /* Opacité du filtre blanc */
+  pointer-events: none; /* Permet d'interagir avec l'image sous-jacente */
 }
 
 .hero-section h1 {
