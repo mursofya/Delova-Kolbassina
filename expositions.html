@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Inspirée par la nature et les animaux, l’artiste Delova Kolbassina vous invite à découvrir sa galerie ; un espace dédié à l'art contemporain. Expositions uniques et collections exceptionnelles vous attendent.">
     <title>Expositions</title>
     <link rel="stylesheet" type="text/css" href="expositions.css" />
     <link
@@ -49,7 +47,7 @@
         <h2 id="en-cours">EN COURS</h2>
         <div class="flex-container flex-cochons">
           <div class="heading-container">
-            <h2>COCHONS-NOUS</h2>
+            <h2 class="sub-title">COCHONS-NOUS</h2>
             <button class="container-button">Achetez votre billet!</button>
           </div>
 
@@ -76,7 +74,7 @@
         <div class="flex-container">
           <div class="heading-container">
             <button class="container-button">Réservez votre visite</button>
-            <h2>SAUCE ISSE</h2>
+            <h2 class="sub-title">SAUCE ISSE</h2>
           </div>
 
           <p class="small-text">
@@ -448,53 +446,25 @@
     </main>
 
     <footer>
-      <img
-        src="./images/culture.png"
-        alt="ministere de la culture"
-        width="150px"
-        height="110px"
-      />
-      <img
-        src="./images/region-sud.png"
-        alt="region-sud"
-        width="400px"
-        height="110px"
-      />
-      <img
-        src="./images/nice-logo.png"
-        alt="nice logo"
-        width="150px"
-        height="110px"
-      />
+      <div class="partenaires">
+          <img class="MIN-culture-RVB" src="imagesdelova/partenaire1.png" alt="ministere de la culture" />
+          <img class="region-sud-removebg" src="imagesdelova/partenaire2.png" alt="region-sud" />
+          <img class="logo-de-la-ville-de" src="imagesdelova/partenaire3.png" alt="nice logo" />
+      </div>
       <div id="text-links-container">
-        <a href="donnees.html" class="text-links">Données personnelles</a>
-        <a href="gestions.html" class="text-links">Gestion des cookies</a>
-        <a href="mentions.html" class="text-links">Mentions légales</a>
+          <a href="donnees.html" target="_blank" class="text-links">Données personnelles</a>
+          <a href="gestions.html" target="_blank" class="text-links">Gestion des cookies</a>
+          <a href="mentions.html" target="_blank" class="text-links">Mentions légales</a>
       </div>
       <div id="icon-links-container">
-        <a href="https://www.instagram.com/" target="_blank">
-          <img
-            src="./images/instagram.png"
-            alt="instagram icon"
-            width="54px"
-            height="52px"
-        /></a>
-        <a href="https://www.pinterest.com/" target="_blank">
-          <img
-            src="./images/pinterest.png"
-            alt="pinterest icon"
-            width="54px"
-            height="52px"
-        /></a>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img
-            src="./images/facebook.png"
-            alt="facebook icon"
-            width="54px"
-            height="52px"
-        /></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="imagesdelova/instagram.png" alt="instagram icon" width="54px" height="52px" /></a>
+          <a href="https://www.pinterest.com/" target="_blank">
+            <img src="imagesdelova/pinterest.png" alt="pinterest icon" width="54px" height="52px" /></a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="imagesdelova/facebook.png" alt="facebook icon" width="54px" height="52px" /></a>
       </div>
-    </footer>
+      </footer>
     <script src="expositions.js"></script>
   </body>
 </html>
