@@ -92,7 +92,7 @@ display: flex;
 margin: 0;
 align-items: center;
 overflow: hidden;
-height: 500px;
+height: 460px;
 max-width: 100%;
 position: relative;
 }
@@ -100,9 +100,8 @@ position: relative;
 .text-section {
  color: #FAF3DD;
  background-color: #315E5B !important;
- padding: 10%
  font-family: 'Noto Serif', serif;
- font-size: 25px;
+ font-size: 24px;
  max-width: 50%;
  text-align: left;
  top: 0;
@@ -110,21 +109,19 @@ position: relative;
 }
 
 .text-section p {
-    max-width: 90%;
-    padding: 10%;
+    max-width: 100%;
+    padding: 15%;
 }
 
-.image-section {
+.hero-section h1 {
 color: #315E5B;
 font-family: 'Road Rage', cursive;
+padding: 10%;
+font-size: 120px;
 justify-content: flex-end;
-z-index: 1;
-background-image: url('imagesdelova/galerie.jpg');
-}
-
-.image-section h1 {
-padding: 15%;
-font-size: 110px;
+background-image: url('images/galerie.png');
+background-position: no-repeat;
+max-width: 50%;
 }
 
 .info-section {
