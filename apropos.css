@@ -89,19 +89,19 @@ body {
 
 .hero-section {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   margin: 0;
   align-items: center;
-  background-color: #315E5B !important;
   overflow: hidden;
   max-height: 100%;
   max-width: 100%;
   position: relative;
 }
 
-.hero-section p {
+.text-section {
    color: #FAF3DD;
+   background-color: #315E5B !important;
+   padding: 10%
    font-family: 'Noto Serif', serif;
    font-size: 25px;
    width: 50%;
@@ -110,20 +110,7 @@ body {
    left: 12,5px;
 }
 
-.hero-section img {
-  object-fit: scale-down;
-  position: relative;
-  top: 0;
-  left: 50;
-  z-index: 0;
-  max-width: 500px; /* Taille maximale fixée en pixels */
-  height: auto; /* Conserve les proportions */
-  background-color: white; /* Couleur du filtre */
-  opacity: 0.5; /* Opacité du filtre blanc */
-  pointer-events: none; /* Permet d'interagir avec l'image sous-jacente */
-}
-
-.hero-section h1 {
+.image-section {
   color: #315E5B;
   font-family: 'Road Rage', cursive;
   font-size: 80px;
@@ -132,6 +119,7 @@ body {
   left: 80%;
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
   z-index: 1;
+  background-image: url('imagesdelova/galerie.jpg');
 }
 
 .info-section {
