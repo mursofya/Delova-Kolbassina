@@ -397,9 +397,17 @@ footer {
   #title {
       margin-top: 112px;
   }
+
+  .nav {
+    left: -140% !important; 
+  }
 }
 
 @media screen and (max-width:320px) {
+
+   .nav {
+    left: -150% !important; 
+  }
   .nav ul li {
       margin: 15px 0;
   }
