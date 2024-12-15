@@ -396,3 +396,10 @@ footer {
     height: 43px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .nav ul li {
+      margin: 15px 0;
+  }
+
+}
