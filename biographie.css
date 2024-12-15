@@ -123,8 +123,15 @@ body {
   @media (max-width: 1000px) {
     font-size: 120px;
   }
-  @media (max-width: 650px) {
-    font-size: 100px;
+  @media (max-width: 800px) {
+    font-size: 80px;
+  }
+  
+  @media (max-width: 570px) {
+    font-size: 50px;
+  }
+  @media (max-width: 450px) {
+    font-size: 40px;
   }
 }
 
