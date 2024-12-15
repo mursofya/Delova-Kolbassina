@@ -135,14 +135,13 @@ body {
 }
 
 .info-section h2 {
-  color: #315e5b;
+   color: #315e5b;
   font-size: 50px;
   display: flex;
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
   font-family: 'Staatliches';
   width: 100%
-  margin-top: 30px; /* Ajuste la valeur pour descendre */
 }
 
 .info-section h3 {
