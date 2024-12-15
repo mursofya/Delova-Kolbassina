@@ -181,11 +181,14 @@ a[href^="mailto"] {
 }
 
 .press-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: row-reverse; /* Vidéo à gauche, texte à droite */
+  justify-content: space-between;
+  margin: 0;
+  align-items: flex-start; /* Aligne le contenu en haut */
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .press-section h2 {
