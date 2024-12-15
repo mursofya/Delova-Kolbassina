@@ -142,6 +142,7 @@ body {
   align-items: center; /* Centrage vertical */
   font-family: 'Staatliches';
   width: 100%
+  margin-top: 30px; /* Ajuste la valeur pour descendre */
 }
 
 .info-section h3 {
