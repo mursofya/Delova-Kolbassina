@@ -128,7 +128,7 @@ body {
   font-size: 80px;
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 90%;
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
   z-index: 1;
 }
