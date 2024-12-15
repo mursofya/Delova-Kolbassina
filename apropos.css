@@ -24,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
     background: #FAF3DD;
     padding-top: 112px
 }
@@ -175,65 +174,55 @@ a[href^="mailto"] {
 }
 
 .press-section {
-  display: flex;
-  flex-direction: row-reverse; /* Vidéo à gauche, texte à droite */
-  justify-content: space-between;
-  margin: 0;
-  align-items: flex-start; /* Aligne le contenu en haut */
-  overflow: hidden;
-  max-height: 100%;
-  max-width: 100%;
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+gap: 5vw;
 }
 
 .press-section h2 {
-  font-size: 40px;
-  color: #315e5b;
-  font-family: 'Staatliches';
-}
-    
-.press-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
+font-size: 40px;
+color: #315e5b;
+font-family: 'Staatliches';
+text-align: center;
+line-height: normal;
 }
 
 /* Conteneur de la vidéo responsive */
-video-container {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    justify-content: flex-start;
+.video-container {
+  width: 50%;
+  overflow: hidden;
+  justify-content: flex-start;
 }
 
 video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
-.press-content ul {
-  flex: 1 1 300px;
-  list-style: none;
+.press-text{
+    margin-right: 5%;
+    margin-top: 5%;
+    max-width: 50%;
 }
 
-.press-content ul li {
-  margin-bottom: 10px;
+.press-text ul {
+flex: 1 1 300px;
+list-style: none;
 }
 
-.press-content ul li a {
-  color: #396956;
-  text-decoration: none;
-  transition: color 0.3s;
+.press-text ul li {
+margin-bottom: 10px;
 }
 
-.press-content ul li a:hover {
-  color: #123524;
+.press-text ul li a {
+color: #396956;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.press-text ul li a:hover {
+color: #123524;
 }
 
 .partners-section h2 {
