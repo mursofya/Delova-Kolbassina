@@ -175,13 +175,13 @@ body {
 }
 
 .press-section h2 {
-  position: relative;
+  position: relative; /* Permet d'utiliser "top" pour ajuster */
   font-size: 40px;
   color: #315e5b;
-  text-align: center;
-  display: inline-block;
-  margin-left: 800px;
+  text-align: center; /* Centre horizontalement */
+  margin: 20px auto; /* Ajuste les marges verticales */
   font-family: 'Staatliches';
+  top: 50px; /* Ajuste la hauteur */
 }
     
 .press-content {
