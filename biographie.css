@@ -27,6 +27,16 @@ body {
   position: fixed;
   top: 0;
   z-index: 900;
+
+  @media (max-width: 600px) {
+    height: 80px;
+  }
+}
+
+.header img {
+  @media (max-width: 600px) {
+    height: 60px;
+  }
 }
 
 .burger {
@@ -37,6 +47,11 @@ body {
   justify-content: space-between;
   cursor: pointer;
   z-index: 2;
+
+  @media (max-width: 600px) {
+    width: 50px;
+    height: 20px;
+  }
 }
 
 .bar {
@@ -59,7 +74,7 @@ body {
     left: -140%;
     width: 300px;
   }
-  
+
   @media (max-width: 600px) {
     width: 250px;
   }
@@ -148,7 +163,7 @@ body {
   align-items: start;
   justify-content: space-between;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 }
@@ -159,16 +174,25 @@ body {
   }
 }
 
-
 #artist-image {
   @media (max-width: 1300px) {
-    width: 100%;
+    width: 700px;
+
   }
 
-  @media (max-width: 1000px) {
-    width: 100%;
+  @media (max-width: 1024px) {
+    width: 500px;
     height: 400px;
   }
+  @media (max-width: 900px) {
+    width: 400px;
+ 
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+
+  }
+
 }
 
 #bottom-image-container {
@@ -177,7 +201,7 @@ body {
   justify-content: space-between;
   margin-left: 50px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     margin: 0;
   }
@@ -189,13 +213,16 @@ body {
   align-items: center;
   gap: 30px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     margin: 0 30px;
   }
 }
 
 #grandma-image {
-  @media (max-width: 1000px) {
+  @media (max-width: 900px) {
+    width: 350px;
+  }
+  @media (max-width: 768px) {
     width: 100%;
   }
 }
