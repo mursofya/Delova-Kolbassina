@@ -129,7 +129,7 @@ body {
   font-weight: 400;
   line-height: normal;
   padding: 0 70px;
-  margin-top: 112px;
+
   @media (max-width: 1400px) {
     font-size: 160px;
   }
@@ -145,6 +145,7 @@ body {
   @media (max-width: 570px) {
     font-size: 55px;
   }
+
 }
 
 .text-margin {
@@ -388,6 +389,10 @@ footer {
   .ic {
     width: 45px;
     height: 43px;
+  }
+
+  #title {
+      margin-top: 112px;
   }
 }
 
