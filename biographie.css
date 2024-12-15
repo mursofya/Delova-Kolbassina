@@ -75,11 +75,11 @@ body {
     width: 300px !important;
   }
   @media (max-width: 375px) {
-    left: -140%;
+    left: -140% !important; 
     width: 300px !important;
   }
     @media (max-width: 320px) {
-    left: -150%;
+    left: -150% !important;
   }
 }
 
