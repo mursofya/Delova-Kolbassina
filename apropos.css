@@ -293,7 +293,7 @@ footer {
 @media screen and (max-width: 1024px) {
     /* NAVIGATION */
     .header {
-      flex-direction: column-reverse;
+      flex-direction: column;
       height: auto;
       padding: 10px 20px;
     }
@@ -313,7 +313,7 @@ footer {
   
     /* HERO SECTION */
     .hero-section {
-      flex-direction: column; /* Empile le texte et l'image */
+      flex-direction: column-reverse; /* Empile le texte et l'image */
       height: auto;
     }
   
@@ -349,6 +349,7 @@ footer {
     .press-section {
       flex-direction: column-reverse;
       gap: 20px;
+      display: block;
     }
   
     .video-container {
