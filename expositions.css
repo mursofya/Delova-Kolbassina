@@ -162,6 +162,7 @@ body {
 
   @media (max-width: 480px) {
     padding: 0 10px;
+    background-image: url("./images/small-cow.jpg");
   }
 }
 
@@ -236,6 +237,7 @@ body {
 
   @media (max-width: 480px) {
     padding: 0 10px;
+    background-image: url("./images/small-sausige.jpg");
   }
 }
 
@@ -772,5 +774,11 @@ footer {
   .ic {
     width: 45px;
     height: 43px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .nav ul li {
+      margin: 15px 0;
   }
 }
