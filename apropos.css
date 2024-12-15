@@ -152,6 +152,10 @@ body {
   font-size: 30px;
 }
 
+ul {
+  list-style-type: none; /* Enlève les puces */
+}
+
 a[href^="mailto"] {
   text-decoration: none;
   color: inherit;
