@@ -12,6 +12,16 @@ header{
     left: 0;
     right: 0;
     z-index: 900;
+
+    @media (max-width: 600px) {
+    height: 80px;
+  }
+}
+
+.header img {
+  @media (max-width: 600px) {
+    height: 60px;
+  }
 }
 
 * {
@@ -41,6 +51,11 @@ body {
   justify-content: space-between;
   cursor: pointer;
   z-index: 3;
+    
+    @media (max-width: 600px) {
+    width: 50px;
+    height: 20px;
+  }
 }
 
 .bar {
@@ -60,6 +75,14 @@ body {
   transition: left 0.3s ease;
   z-index: 3;
 
+    @media (max-width: 1100px) {
+    left: -140%;
+    width: 300px;
+  }
+
+  @media (max-width: 600px) {
+    width: 250px;
+  }
 }
 
 .nav ul {
@@ -80,6 +103,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 180%;
+
+    @media (max-width: 800px) {
+    font-size: 48px;
+  }
 }
 
 .nav.open {
