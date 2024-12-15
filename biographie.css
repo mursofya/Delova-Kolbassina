@@ -77,6 +77,7 @@ body {
   }
 
   @media (max-width: 320px) {
+    width: 300px !important;
     left: -150% !important;
   }
 
@@ -332,6 +333,12 @@ footer {
   }
 }
 
+@media screen and (max-width:670px) {
+  .nav ul li a {
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   header {
     height: 80px;
@@ -349,10 +356,6 @@ footer {
 
   .nav ul li {
     margin: 30px 0;
-  }
-
-  .nav ul li a {
-    font-size: 30px;
   }
 
   footer {
