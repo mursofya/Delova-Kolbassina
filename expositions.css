@@ -715,6 +715,7 @@ footer {
   header {
     height: 80px;
     padding: 0px 11px;
+    max-width: 425px
   }
 
   header img {
