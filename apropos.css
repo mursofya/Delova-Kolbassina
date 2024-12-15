@@ -188,7 +188,6 @@ a[href^="mailto"] {
 .press-section h2 {
   font-size: 40px;
   color: #315e5b;
-  text-align: center; /* Centre horizontalement */
   font-family: 'Staatliches';
 }
     
