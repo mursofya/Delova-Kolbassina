@@ -186,13 +186,10 @@ a[href^="mailto"] {
 }
 
 .press-section h2 {
-  position: relative; /* Permet d'utiliser "top" pour ajuster */
   font-size: 40px;
   color: #315e5b;
   text-align: center; /* Centre horizontalement */
   font-family: 'Staatliches';
-  top: 0;
-  left: 50;
 }
     
 .press-content {
