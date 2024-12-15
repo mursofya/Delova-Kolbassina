@@ -105,8 +105,9 @@ body {
    font-family: 'Noto Serif', serif;
    font-size: 25px;
    width: 50%;
-   margin-left: 12,5px;
    text-align: left;
+   top: 0;
+   left: 12,5px;
 }
 
 .hero-section img {
@@ -128,7 +129,7 @@ body {
   font-size: 80px;
   position: absolute;
   top: 50%;
-  left: 90%;
+  left: 80%;
   transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
   z-index: 1;
 }
