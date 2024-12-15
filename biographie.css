@@ -347,6 +347,10 @@ footer {
     height: 4px;
     margin-left: 30%;
   }
+    .nav {
+    left: -50%;
+    width: 50%;
+  }
 
   .nav ul li {
     margin: 30px 0;
