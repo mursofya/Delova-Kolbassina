@@ -88,38 +88,38 @@ body {
 }
 
 .hero-section {
-  display: flex;
-  margin: 0;
-  align-items: center;
-  overflow: hidden;
-  max-height: 500px;
-  max-width: 100%;
-  position: relative;
+display: flex;
+margin: 0;
+align-items: center;
+overflow: hidden;
+height: 500px;
+max-width: 100%;
+position: relative;
 }
 
 .text-section {
-   color: #FAF3DD;
-   background-color: #315E5B !important;
-   padding: 10%
-   font-family: 'Noto Serif', serif;
-   font-size: 25px;
-   width: 50%;
-   text-align: left;
-   top: 0;
-   left: 12,5px;
+ color: #FAF3DD;
+ background-color: #315E5B !important;
+ padding: 10%
+ font-family: 'Noto Serif', serif;
+ font-size: 25px;
+ max-width: 50%;
+ text-align: left;
+ top: 0;
+ left: 12,5px;
 }
 
 .text-section p {
-    mad-width: 90%
+    max-width: 90%;
     padding: 10%;
 }
 
 .image-section {
-  color: #315E5B;
-  font-family: 'Road Rage', cursive;
-  justify-content: flex-end;
-  z-index: 1;
-  background-image: url('imagesdelova/galerie.jpg');
+color: #315E5B;
+font-family: 'Road Rage', cursive;
+justify-content: flex-end;
+z-index: 1;
+background-image: url('imagesdelova/galerie.jpg');
 }
 
 .image-section h1 {
